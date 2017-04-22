@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="344bd8e66454a19ac5d766b6231a044685349e91">
+        sha1="a3bfb9fa8bb421dcfcdfa485c21219fc7429202f">
         <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0a760df12d230d30f9bd497af31487e8bfc5771d\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="38d2e3a581f7eb4c115b78a6da2ad895c1a2edaa">
+        sha1="8a6a582228b609f3a0b39a3eb0a5f99b85fd6f25">
         <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dda7e028d3ac84449744e4f1690079144670d5f9\classes.dex" />
     </item>
     <item

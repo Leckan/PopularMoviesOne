@@ -38,10 +38,10 @@ MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Simpa
 		ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:8:9-43
 	android:theme
 		ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.leckan.popularmoviesone.MainActivity
+activity#com.leckan.popularmoviesone.UI.MainActivity
 ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:12:19-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

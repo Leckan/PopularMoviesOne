@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\bbaby.png",
+        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-hdpi\\bbaby.png"
+    },
+    {
+        "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ff8.png",
+        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-hdpi\\ff8.png"
+    },
+    {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
