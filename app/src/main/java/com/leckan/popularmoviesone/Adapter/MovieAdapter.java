@@ -10,7 +10,11 @@ import android.widget.TextView;
 
 import com.leckan.popularmoviesone.Model.Movie;
 import com.leckan.popularmoviesone.R;
+import com.leckan.popularmoviesone.Utilities.NetworkUtils;
+import com.leckan.popularmoviesone.Utilities.Utility;
+import com.squareup.picasso.Picasso;
 
+import java.net.URL;
 import java.util.List;
 
 /**
@@ -45,7 +49,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     public void onBindViewHolder(MovieViewHolder holder, int position) {
         Movie movie = movieList.get(position);
         holder.viewMovieName.setText(movie.getOriginal_title());
-        holder.listMovieImageView.setImageResource(movie.getImageRes());
+        URL url = NetworkUtils.buildImageUrl(movie.getPoster_path());
+        Picasso.with(this.inflater.getContext()).load(url.toString()).into( holder.listMovieImageView);
+
     }
 
     @Override
@@ -125,7 +131,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         public void onClick(View view) {
 
             int clickedPosition = getAdapterPosition();
-            //   mOnClickListener.onListItemClick(clickedPosition);
+              // mOnClickListener.onListItemClick(clickedPosition);
         }
     }
 }

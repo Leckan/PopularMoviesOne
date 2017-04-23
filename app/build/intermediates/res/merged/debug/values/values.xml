@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="sortnames">
-        <item>popularity</item>
-        <item>ratings</item>
+        <item>popular</item>
+        <item>top_rated</item>
     </string-array>
     <string-array name="sorttypes">
         <item>By Popularity</item>
-        <item>By Ratings</item>
+        <item>By Top Rated</item>
     </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>

@@ -2,10 +2,10 @@
 <resources>
     <string-array name="sorttypes">
         <item>By Popularity</item>
-        <item>By Ratings</item>
+        <item>By Top Rated</item>
     </string-array>
     <string-array name="sortnames">
-        <item>popularity</item>
-        <item>ratings</item>
+        <item>popular</item>
+        <item>top_rated</item>
     </string-array>
 </resources>

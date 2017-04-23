@@ -1,5 +1,6 @@
 package com.leckan.popularmoviesone.UI;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,8 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import com.leckan.popularmoviesone.Adapter.MovieAdapter;
 import com.leckan.popularmoviesone.Model.DummyMovies;
@@ -21,7 +26,12 @@ import com.leckan.popularmoviesone.R;
 import com.leckan.popularmoviesone.Utilities.NetworkUtils;
 import com.leckan.popularmoviesone.Utilities.Utility;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements MovieAdapter.ListItemClickListener {
@@ -30,7 +40,9 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
     RecyclerView moviesList;
     MovieAdapter adapter;
     private String sPreferredType;
+    private ProgressDialog pDialog;
 
+    ArrayList<Movie> dMovies ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-        sPreferredType = preferences.getString("chosenSortType", "Popularity");
+        sPreferredType = preferences.getString("chosenSortType1", "popular");
         NetworkInfo networkInfo = mConMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
             LoadMoviesPage(sPreferredType);
@@ -82,8 +94,77 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
 
             URL movieURL = NetworkUtils.buildUrl(sPreferredType);
             String jsonStr = NetworkUtils.makeServiceCall(movieURL.toString());
+            if (jsonStr != null) {
+                try {
+                    JSONObject jsonObj = new JSONObject(jsonStr);
+
+                    // Getting JSON Array node
+                    JSONArray myUsers = jsonObj.getJSONArray("results");
+                    dMovies = new ArrayList<Movie>();
+                    // looping through All Contacts
+                    for (int i = 0; i < myUsers.length(); i++) {
+                        JSONObject c = myUsers.getJSONObject(i);
+                        Movie aMovie = new Movie();
+                        aMovie.setOriginal_title(c.getString("original_title"));
+                        aMovie.setPoster_path(c.getString("poster_path"));
+                        aMovie.setOverview(c.getString("overview"));
+                        aMovie.setImageRes(R.mipmap.ff8);
+                        // adding contact to contact list
+                        dMovies.add(aMovie);
+                    }
+                } catch (final JSONException e) {
+                    Log.e("Main", "Json parsing error: " + e.getMessage());
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Json parsing error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                    });
+
+                }
+            } else {
+                Log.e("Main", "Couldn't get json from server.");
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Couldn't get json from server. Check LogCat for possible errors!",
+                                Toast.LENGTH_LONG)
+                                .show();
+                    }
+                });
+
+            }
 
             return null;
+        }
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // Showing progress dialog
+            pDialog = new ProgressDialog(MainActivity.this);
+            pDialog.setMessage("Please wait...");
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            // Dismiss the progress dialog
+            if (pDialog.isShowing())
+                pDialog.dismiss();
+            /**
+             * Updating parsed JSON data into ListView
+             * */
+
+            adapter = new MovieAdapter(dMovies, MainActivity.this);
+
+            moviesList.setAdapter(adapter);
+
         }
     }
 

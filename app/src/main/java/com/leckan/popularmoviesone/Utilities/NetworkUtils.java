@@ -22,7 +22,7 @@ public class NetworkUtils {
 
     private static final String TAG = NetworkUtils.class.getSimpleName();
     private static final String BASE_MOVIE_IMAGE_URL = "http://image.tmdb.org/t/p/";
-    private static final String BASE_MOVIE_URL = "http://image.tmdb.org/3/movie/";
+    private static final String BASE_MOVIE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String POPULAR = "popular";
     private static final String TOP_RATED = "top_rated";
     private static final String format = "json";
@@ -90,7 +90,7 @@ public class NetworkUtils {
     public static URL buildImageUrl(String imagePath) {
         Uri builtUri = Uri.parse(BASE_MOVIE_IMAGE_URL).buildUpon()
                 .appendPath(size)
-                .appendPath(imagePath).build();
+                .appendEncodedPath(imagePath).build();
 
         URL url = null;
         try {
