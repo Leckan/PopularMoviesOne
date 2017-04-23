@@ -26,7 +26,7 @@ public class NetworkUtils {
     private static final String POPULAR = "popular";
     private static final String TOP_RATED = "top_rated";
     private static final String format = "json";
-    private static final String size = "w185";
+    private static final String size = "w500";
 
 
     final static String QUERY_PARAM = "q";
