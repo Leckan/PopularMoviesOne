@@ -1,10 +1,12 @@
 package com.leckan.popularmoviesone.Model;
 
+import java.io.Serializable;
+
 /**
  * Created by Leckan on 4/16/2017.
  */
 
-public class Movie
+public class Movie implements Serializable
 {
     private String poster_path ;
     private boolean adult ;

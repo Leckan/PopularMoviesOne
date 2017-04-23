@@ -3,6 +3,8 @@ package com.leckan.popularmoviesone.Utilities;
 import android.net.Uri;
 import android.util.Log;
 
+import com.leckan.popularmoviesone.BuildConfig;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,7 +33,7 @@ public class NetworkUtils {
 
     final static String QUERY_PARAM = "q";
     final static String API_KEY_PARAM = "api_key";
-    final static String myKey = "";
+    final static String myKey = BuildConfig.TMDB_API_KEY;
 
     public static URL buildUrl(String prefType) {
         Uri builtUri = Uri.parse(BASE_MOVIE_URL).buildUpon()

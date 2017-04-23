@@ -108,7 +108,8 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
                         aMovie.setOriginal_title(c.getString("original_title"));
                         aMovie.setPoster_path(c.getString("poster_path"));
                         aMovie.setOverview(c.getString("overview"));
-                        aMovie.setImageRes(R.mipmap.ff8);
+                        aMovie.setRelease_date(c.getString("release_date"));
+                        aMovie.setVote_average(Float.valueOf(c.getString("vote_average")));
                         // adding contact to contact list
                         dMovies.add(aMovie);
                     }

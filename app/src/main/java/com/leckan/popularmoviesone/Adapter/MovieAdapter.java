@@ -1,6 +1,7 @@
 package com.leckan.popularmoviesone.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import com.leckan.popularmoviesone.Model.Movie;
 import com.leckan.popularmoviesone.R;
+import com.leckan.popularmoviesone.UI.MainActivity;
+import com.leckan.popularmoviesone.UI.MovieDetail;
 import com.leckan.popularmoviesone.Utilities.NetworkUtils;
 import com.leckan.popularmoviesone.Utilities.Utility;
 import com.squareup.picasso.Picasso;
@@ -131,6 +134,12 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         public void onClick(View view) {
 
             int clickedPosition = getAdapterPosition();
+            Movie selectedMovie = (Movie) movieList.get(clickedPosition);
+
+            Intent intent = new Intent(inflater.getContext(), MovieDetail.class);
+
+            intent.putExtra("theMovie",selectedMovie);
+            inflater.getContext().startActivity(intent);
               // mOnClickListener.onListItemClick(clickedPosition);
         }
     }

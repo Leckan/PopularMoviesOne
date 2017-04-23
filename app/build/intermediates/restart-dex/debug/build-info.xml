@@ -5,29 +5,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="311853927080374"
+    timestamp="317726902489732"
     token="3463070675778679813"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="559" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="39" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
         location="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="311853927080374"
+        timestamp="317726902489732"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\outputs\apk\app-debug.apk"
