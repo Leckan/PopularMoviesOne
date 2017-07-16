@@ -3,129 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Simpa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jar="C:\Users\Thinkpad\.android\build-cache\2c0e63f37ae259e5aba23947b30ff36ea2909004\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_33e8008032f6724869d3b11944667a78b1ad5981\classes.dex" />
+        revision="26.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_086c15bd70e6a7f72a2a0c2c61f6a552788955b0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jar="C:\Users\Thinkpad\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_e388910b46325113e7cbf10e969bbc305bb8d509\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_b1bac5017f4237de98e221d26d71478fc8af18d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ac244a6c7f569455351fda8130794837f8c2d49e">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0a760df12d230d30f9bd497af31487e8bfc5771d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_7de2d7418877ce950febc1a24ec1b10f12b92971\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_93bbf94c5019c47c7c750ae6f6d3d22b09bb166c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_dc808bab58a12f9625b53e865dc4d91597136aa9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_674f807b6ff3113c2d8f361b9aa87dbf5f3bda6a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_f7802496a05cb192bc0f3974c5c4fa3de9dcb63f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_4e7ee3a51949ab3ea4307f9c70b6f1c416397e11\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_0c493a5d98957643719b3fd1211437c97f0a6a1d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="61f8190b1d8e51bab22f9be1de460d04624f6a91">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dda7e028d3ac84449744e4f1690079144670d5f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_4e7d7367c2bf86f8d109d9590bb6b9604645fe38\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Simpa\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
+        revision="26.0.0"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Simpa\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_e5322707db4ed68aca16186ecf19115751ce16ed\classes.dex" />
+        <dex dex="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_e4e17a099bb22abbff8c2f18f629adfae781ec49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fdb020091237b75000e0f967cf9be5f035805e57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c9c4c622452b237dd2d2be6668e4b6aa08beb78c">
+        <dex dex="C:\Users\Thinkpad\AndroidStudioProjects\PopularMoviesOne\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d95b0bfa47702d06832cea6c34a4d17c4221304e\classes.dex" />
     </item>
 
 </items>

@@ -1,18 +1,34 @@
 [
     {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Thinkpad\\.android\\build-cache\\1622b8956778a06ea575934ad0a8f6768480a137\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\Simpa\\.android\\build-cache\\ea03a62c047d5a053e179f7088e73006ea7c99f9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\Simpa\\.android\\build-cache\\ea03a62c047d5a053e179f7088e73006ea7c99f9\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Thinkpad\\.android\\build-cache\\1622b8956778a06ea575934ad0a8f6768480a137\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Simpa\\.android\\build-cache\\ea03a62c047d5a053e179f7088e73006ea7c99f9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\Simpa\\.android\\build-cache\\ea03a62c047d5a053e179f7088e73006ea7c99f9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Thinkpad\\.android\\build-cache\\1622b8956778a06ea575934ad0a8f6768480a137\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Thinkpad\\.android\\build-cache\\1622b8956778a06ea575934ad0a8f6768480a137\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]

@@ -10,7 +10,8 @@
         android:id="@+id/recycler_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:padding="1dp"/>
+        android:padding="1dp"
+        />
 </FrameLayout>
 
     <!--<GridView

@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Thinkpad\\.android\\build-cache\\b617d18123a642e4130fceb975c8a79a4a0d1c4f\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
@@ -11,7 +35,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Simpa\\.android\\build-cache\\d09eea033c9b7f8ff38f1e5d10ed2a439aa2a018\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

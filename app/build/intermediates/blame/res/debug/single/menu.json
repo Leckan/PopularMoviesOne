@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\menu\\main.xml"
     }

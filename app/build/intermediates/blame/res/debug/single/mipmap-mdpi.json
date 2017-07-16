@@ -8,7 +8,19 @@
         "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ff8.png",
+        "source": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-mdpi\\ff8.png"
+    },
+    {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bbaby.png",
         "source": "C:\\Users\\Simpa\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-mdpi\\bbaby.png"
+    },
+    {
+        "merged": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bbaby.png",
+        "source": "C:\\Users\\Thinkpad\\AndroidStudioProjects\\PopularMoviesOne\\app\\src\\main\\res\\mipmap-mdpi\\bbaby.png"
     }
 ]
